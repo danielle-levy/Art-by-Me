@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
+
 const persist = require('./persist')
 const express = require('express')
 const limitter = require('express-rate-limit')
@@ -13,19 +17,24 @@ const UserModel = require("./models/User")
 const ProductModel = require("./models/Product")
 const MessageModel = require("./models/Message")
 const PersonalProductModel = require("./models/PersonalProduct")
-const mongoURI = "mongodb://localhost:27017/sessions"
+//const mongoURI = "mongodb://localhost:27017/sessions"
 
 mongoose
-    .connect(mongoURI, {
+    .connect(process.env.mongoURI, {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true,
-    }).then((res) => {
-    console.log("MongoDB connected")
-})
+    })
+    //.then((res) => {
+    //console.log("MongoDB connected")
+//})
+
+const db = mongoose.connection
+db.on('error', error => console.error(error))
+db.once('open', () => console.log("MongoDB connected"))
 
 const store = new MongoDBSession({
-    uri: mongoURI,
+    uri: process.env.mongoURI,
     collection: 'mySessions',
 })
 
