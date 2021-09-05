@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Art by Me | Turn Your Memories into Artworks</title>
+  <link href="/fadeInLeft.css" rel="stylesheet" type="text/css">
+  <link href="/layout.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/ImageToArt.js"></script>
+
+  <!-- for the menus -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  <meta content="IE-edge" http-equiv="X-UA-Compatible">
+  <link href="/main.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/IncludeHTML.js"></script>
+
+</head>
+<body>
+<!-- menus -->
+<div w3-include-html="menu.html"></div>
+
+<div class="content">
+  <div class="in-down">
+    <h1>Image To Art | Turn Your Memories into Artworks</h1></br>
+    <div style="width: 60%;letter-spacing: normal; color: black; padding: 10px 20px; border: 1px solid #999; border-radius: 15px; background-color: #f9f9f9">
+      <h3>How does it work?</h3>
+      <ol>
+        <li>Choose a photo from your computer (you can choose more than one photo!)</li>
+        <li>Make sure you chose the right images and click the submit button</li>
+        <li>Once you click submit the price will be added to your shopping cart!</li>
+      </ol>
+    </div>
+    </br>
+
+    <div style="color: white; background-color: white">
+      <input type="file" files id="myFile" name="filename" class="custom-file-input" multiple=true accept="image/png, image/jpeg">
+      <input type="submit" value="submit" class="submit-file">
+    </div>
+    <div id="preview" style="letter-spacing: 1px">
+      <p>No images currently selected for preview...</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- for loading the menus -->
+<script>includeHTML();</script>
+<script src="/scripts/Menu.js"></script>
+
+</body>
+</html>

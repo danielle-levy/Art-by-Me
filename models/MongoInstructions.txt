@@ -1,0 +1,5 @@
+In order to connect you need to run mongo in the background
+and if you have compass you can see the database in a nice gui by using the:
+mongoURI = "mongodb://localhost:27017/sessions"
+This is a very friendly npm package and I used the following web to help the installation:
+https://docs.mongodb.com/v4.0/tutorial/install-mongodb-on-os-x/

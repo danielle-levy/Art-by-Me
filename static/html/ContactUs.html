@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art by Me | Contact Us</title>
+  <script src="/scripts/ContactUs.js"> </script>
+  <link href="/fadeInLeft.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/cart.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/layout.css" rel="stylesheet" type="text/css">
+
+  <!-- for the menus -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  <meta content="IE-edge" http-equiv="X-UA-Compatible">
+  <link href="/main.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/IncludeHTML.js"></script>
+
+</head>
+
+<body>
+<!-- menus -->
+<div w3-include-html="menu.html"></div>
+
+<div class="content">
+  <div class="in-down">
+    <div class="container">
+      <!-- Content of contact us -->
+      <div class="form">
+        <h1>Contact Us</h1>
+        <div class="sign-up-form">
+          Subject <input id="message-header"/><br/>
+          Your Message <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <div class="myButton" id="go">Send Message</div><br/>
+          <div class="error"></div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+<!-- for loading the menus -->
+<script>includeHTML();</script>
+<script src="/scripts/Menu.js"></script>
+</body>
+</html>
+

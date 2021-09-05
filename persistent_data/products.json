@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "611503b38f26dc17d06fa090"
+  },
+  "name": "Mattise",
+  "price": 22,
+  "image_path": "/gallery/new/IMG_0530.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61156135e43c5f193a5029b8"
+  },
+  "name": "Friends-themed-card",
+  "price": 22,
+  "image_path": "/gallery/new/Untitled_Artwork 9.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611563821485f3196eafcd22"
+  },
+  "name": "Julius",
+  "price": 22,
+  "image_path": "/gallery/new/IMG_0529.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611563a51485f3196eafcd2b"
+  },
+  "name": "Song-cover",
+  "price": 22,
+  "image_path": "/gallery/new/IMG_0520.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611590dba945891a5c9dfb43"
+  },
+  "name": "Friends",
+  "price": 22,
+  "image_path": "/gallery/new/IMG_0466.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61159a62a5050f1b66c2496c"
+  },
+  "name": "She",
+  "price": 22,
+  "image_path": "/gallery/new/Untitled_Artwork 7.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61159c08eabcef1b833be288"
+  },
+  "name": "Self-care",
+  "price": 22,
+  "image_path": "/gallery/Untitled_Artwork 6.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6116534336fd761c6e9043c4"
+  },
+  "name": "Her",
+  "price": 22,
+  "image_path": "/gallery/new/Untitled_Artwork 15.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611683800673f91df0bf3536"
+  },
+  "name": "Feminine",
+  "price": 22,
+  "image_path": "/gallery/new/Untitled_Artwork 14.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611688e9d0746d1e49cde486"
+  },
+  "name": "trust-t-shirt-white",
+  "price": 35,
+  "image_path": "/gallery/tshirt3.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611688eed0746d1e49cde48c"
+  },
+  "name": "trust-t-shirt-brown",
+  "price": 35,
+  "image_path": "/gallery/tshirt2.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d0087b76aeb21f16dfc30"
+  },
+  "name": "trust-textual-design",
+  "price": 10,
+  "image_path": "/gallery/trust.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba7c5b897c3a416ea531"
+  },
+  "name": "bright-duo",
+  "price": 22,
+  "image_path": "/gallery/brightduo.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba815b897c3a416ea537"
+  },
+  "name": "nike",
+  "price": 22,
+  "image_path": "/gallery/nike.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba875b897c3a416ea53d"
+  },
+  "name": "free",
+  "price": 20,
+  "image_path": "/gallery/free.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba8b5b897c3a416ea543"
+  },
+  "name": "dark-duo",
+  "price": 22,
+  "image_path": "/gallery/darkduo.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba8f5b897c3a416ea549"
+  },
+  "name": "baby-card",
+  "price": 25,
+  "image_path": "/gallery/babycard.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6128ba965b897c3a416ea54f"
+  },
+  "name": "trust-t-shirt-beige",
+  "price": 35,
+  "image_path": "/gallery/tshirt1.png",
+  "__v": 0
+}]

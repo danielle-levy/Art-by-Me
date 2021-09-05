@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art by Me | User</title>
+    <link href="/fadeInLeft.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/cart.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/layout.css" rel="stylesheet" type="text/css">
+
+    <!-- for the menus -->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <meta content="IE-edge" http-equiv="X-UA-Compatible">
+    <link href="/main.css" rel="stylesheet" type="text/css">
+    <script src="/scripts/IncludeHTML.js"></script>
+
+</head>
+
+<body>
+<!-- menus -->
+<div w3-include-html="menu.html"></div>
+
+<div class="content">
+    <div class="in-down">
+        <div class="container">
+            <h1>User Details</h1>
+
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><i id="user-username"></i></td>
+
+                </tr>
+                <tr>
+                    <td>My purchases count</br>
+                        <strong><a href="/Purchases.html" style="color: black;">click to view your purchases</a></strong>
+                    </td>
+                    <td><i id="user-p"></i></td>
+
+                </tr>
+                <tr>
+                    <td>My Activity</br>
+                        <i style="color:grey">
+                            Login
+                        </i>
+                    </td>
+                    <td><i id="user-act-in"></i></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <i style="color:grey">
+                            Logout
+                        </i>
+                    </td>
+                    <td><i id="user-act-out"></i></td>
+                    <div id="is-admin"></div>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+        </div>
+    </div>
+</div>
+<!-- for loading the menus -->
+<script>includeHTML();</script>
+<script src="/scripts/Menu.js"></script>
+<script src="/scripts/User.js"></script>
+
+</body>
+</html>
+

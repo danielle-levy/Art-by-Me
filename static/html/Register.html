@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Art by Me | Register</title>
+  <link href="/fadeInLeft.css" rel="stylesheet" type="text/css">
+  <link href="/layout.css" rel="stylesheet" type="text/css">
+  <link href="/slideshow.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/Register.js"></script>
+
+  <!-- for the menus -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  <meta content="IE-edge" http-equiv="X-UA-Compatible">
+  <link href="/main.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/IncludeHTML.js"></script>
+
+</head>
+<body>
+<!-- menus -->
+<div w3-include-html="menu.html"></div>
+
+<div class="content">
+  <div class="in-down">
+    <div class="form">
+      <h1>Sign Up</h1>
+      <div class="sign-up-form">
+        Username: <input id="user"/><br/>
+        Password: <input type="password" id="pass"/><br/>
+        <div class="myButton" id="go">Register</div><br/>
+        <br/>
+        <div class="error"></div>
+        <div class="signin">
+          <p>Already have an account? <a href="/Index.html">Sign in</a></p>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- for loading the menus -->
+<script>includeHTML();</script>
+<script src="/scripts/Menu.js"></script>
+
+</body>
+</html>

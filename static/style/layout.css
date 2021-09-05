@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*padding: 10px;*/
+    margin: 0;
+    font-family: cabin, avenir, montserratregular,'Comfortaa', cursive;;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.logo {
+    font-family: avenir;
+    padding-left: 10px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* Style the side navigation */
+.menu {
+    text-transform: uppercase;
+    line-height: 10px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    height: 100%;
+    width: 12%;
+    min-width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    overflow-x: hidden;
+}
+
+/* Side navigation links */
+.menu a {
+    padding: 10px;
+    /* text-align: center; */
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+
+.logout-btn {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    height: 100%;
+
+}
+
+.logout-btn:hover{
+    font-style: oblique;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+/* Change color on hover */
+.menu a:hover {
+    font-style: oblique;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+/* Store products */
+.product-details {
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    overflow-x: hidden;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 10px;
+    /* text-align: center; */
+    /* color: black; */
+    text-decoration: none;
+    display: block;
+}
+.product-details a {
+    text-decoration: none;
+}
+
+
+.product-details a:hover {
+    font-style: oblique;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+.p-price {
+    line-height: 20px;
+    font-size: 10px;
+}
+
+/* Style the content */
+.content {
+    padding: 30px;
+    margin-left: 250px;
+    line-height: 30px;
+    width: 78%;
+    /*padding-left: 30px; */
+}
+
+.myButton {
+    font-size: 8px;
+    min-width: 200px;
+    background-color: black;
+    border: white;
+    border-style: solid;
+    border: 2px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.myButton:hover {
+    border-color: black;
+    background-color: #ededed;
+    color: #333;
+    font-style: oblique;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+h1 {
+    top: 0;
+    width: 70%;
+    letter-spacing: -1px;
+    line-height: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: avenir;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+h3 {
+    text-transform: lowercase;
+    font-family: avenir;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-weight: bolder;
+    line-height: 10px;
+}
+
+h4 {
+    text-transform: lowercase;
+    font-family: avenir;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-weight: normal;
+    line-height: 5px;
+}
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:95px;
+    margin-bottom:60px;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+img {
+    opacity: 60%;
+}
+
+.product-details a{
+    text-decoration: none;
+}
+
+img:hover {
+    opacity: 100%;
+    transition: all ease 0.3s;
+}
+
+/* Store CSS */
+.arrival-heading strong{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #1b1919;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 5px 30px;
+    border: 1px solid #e0e0e0;
+}
+.arrival-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.arrival-heading strong{
+    color: #ffffff;
+    background-color: #202020;
+    font-weight: 500;
+}
+.arrival-heading p{
+    color: #808080;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+.product-container{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-box{
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
+    margin: 20px;
+}
+.product-img{
+    width:200px;
+    height: 210px;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+    opacity: 100%;
+}
+.product-img img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    opacity: 100%;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #f3f3f3;
+}
+
+.p-name{
+    color: #727272;
+}
+.p-price{
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.product-box:hover{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.add-cart{
+    text-decoration: none;
+    position: absolute;
+    right: -20px;
+    top: 10px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: dimgray;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: none;
+    animation: fade 0.3s;
+
+}
+
+.add-cart:hover{
+    background-color: black;
+    transition: all ease 0.2s;
+}
+.product-box:hover .add-cart{
+    display: flex;
+}
+.new-arrival{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* search bar */
+.search-bar{
+    font-family: cabin, avenir, montserratregular, oswald, arial;
+    width:100%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    z-index: 101;
+    animation: search 0.3s;
+}
+.search-input{
+    width:95%;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+.search-bar input{
+    width:100%;
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    margin: 20px;
+    padding: 0px 20px;
+}
+.search-btn{
+    color: #272727;
+    font-size: 12px;
+    padding-right: 40px;
+}
+
+.search-bar-active{
+    display: flex;
+}
+@keyframes search{
+    0%{
+        bottom: -300px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+#myAdminTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+}
+
+#myAdminTable th, #myAdminTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myAdminTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#myAdminTable tr.header, #myAdminTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+#is-admin a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+#is-admin a:hover {
+    color: black;
+    font-weight: bold;
+    font-style: oblique;
+    transition: all ease 0.3s;
+}
+
+/* About us style */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    letter-spacing: 0px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    font-family: inherit;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.feature-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-heading h2{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #1b1919;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 5px 30px;
+    border: 1px solid #e0e0e0;
+}
+
+.submit-file {
+    font-family: inherit;
+    left: 160px;
+    position: absolute;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 7px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.submit-file:hover {
+    border-color: black;
+    transition: all ease 0.3s;
+}
+
+.custom-file-input::placeholder {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    padding-bottom: 20px;
+}
+.custom-file-input::before {
+    color: black;
+    content: 'Click to Select Images';
+    font-family: cabin, avenir, montserratregular, oswald, arial;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 7px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 10pt;
+}
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.preview {
+    letter-spacing: normal;
+    padding-bottom: 40px;
+}
+

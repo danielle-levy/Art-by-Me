@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "612cc102b2f32946745c9831"
+  },
+  "cart": [
+    {
+      "_id": {
+        "$oid": "612baf0b7bc14b42e04765ab"
+      },
+      "name": "Pick-Color-Her",
+      "price": 15,
+      "image_path": "/gallery/pickColor/Untitled_Artwork 22.png",
+      "image_background": "ece4e8",
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "61159c08eabcef1b833be288"
+      },
+      "name": "Self-care",
+      "price": 22,
+      "image_path": "/gallery/Untitled_Artwork 6.png",
+      "__v": 0
+    }
+  ],
+  "purchases": [
+    {
+      "purchased_at": "30/8/2021 @ 14:29:55",
+      "items": [
+        {
+          "_id": {
+            "$oid": "612baf0b7bc14b42e04765ab"
+          },
+          "name": "Pick-Color-Her",
+          "price": 15,
+          "image_path": "/gallery/pickColor/Untitled_Artwork 22.png",
+          "image_background": "f5ebef",
+          "__v": 0
+        },
+        {
+          "_id": {
+            "$oid": "611503b38f26dc17d06fa090"
+          },
+          "name": "Mattise",
+          "price": 22,
+          "image_path": "/gallery/new/IMG_0530.png",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "purchased_at": "30/8/2021 @ 14:41:29",
+      "items": [
+        {
+          "_id": {
+            "$oid": "61159c08eabcef1b833be288"
+          },
+          "name": "Self-care",
+          "price": 22,
+          "image_path": "/gallery/Untitled_Artwork 6.png",
+          "__v": 0
+        },
+        {
+          "_id": {
+            "$oid": "611590dba945891a5c9dfb43"
+          },
+          "name": "Friends",
+          "price": 22,
+          "image_path": "/gallery/new/IMG_0466.png",
+          "__v": 0
+        },
+        {
+          "_id": {
+            "$oid": "611688e9d0746d1e49cde486"
+          },
+          "name": "trust-t-shirt-white",
+          "price": 35,
+          "image_path": "/gallery/tshirt3.png",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "purchased_at": "30/8/2021 @ 20:35:15",
+      "items": [
+        {
+          "_id": {
+            "$oid": "611503b38f26dc17d06fa090"
+          },
+          "name": "Mattise",
+          "price": 22,
+          "image_path": "/gallery/new/IMG_0530.png",
+          "__v": 0
+        },
+        {
+          "_id": {
+            "$oid": "612a70705224c83f86afe481"
+          },
+          "name": "Pick-Color-Him",
+          "price": 15,
+          "image_path": "/gallery/pickColor/Untitled_Artwork 18.png",
+          "image_background": "ffdbdb",
+          "__v": 0
+        },
+        {
+          "_id": {
+            "$oid": "612cff6c3a90dc4857c5528f"
+          },
+          "name": "Image-To-Art: IMG_0484.PNG",
+          "price": 20,
+          "image_path": "/gallery/personal.png",
+          "image_background": "#ffffff",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "purchased_at": "30/8/2021 @ 20:39:15",
+      "items": [
+        {
+          "_id": {
+            "$oid": "612baf0c7bc14b42e04765ae"
+          },
+          "name": "Pick-Color-Secret",
+          "price": 15,
+          "image_path": "/gallery/pickColor/Untitled_Artwork 21.png",
+          "image_background": "f7f4f3",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "purchased_at": "30/8/2021 @ 21:19:23",
+      "items": [
+        {
+          "_id": {
+            "$oid": "611563821485f3196eafcd22"
+          },
+          "name": "Julius",
+          "price": 22,
+          "image_path": "/gallery/new/IMG_0529.png",
+          "__v": 0
+        }
+      ]
+    }
+  ],
+  "loginActivity": [
+    "30/8/2021 @ 14:29:19"
+  ],
+  "logoutActivity": [],
+  "username": "admin",
+  "email": "admin@artbyme.com",
+  "password": "$2a$12$mj6pzTKfzfdV4cW596RD1uFfRA1muo1azSBzfjwtenxOYAjuLY.cS",
+  "__v": 50
+}]

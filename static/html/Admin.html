@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art by Me | Admin</title>
+  <script src="/scripts/Admin.js"> </script>
+  <link href="/fadeInLeft.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/cart.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="/layout.css" rel="stylesheet" type="text/css">
+
+  <!-- for the menus -->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+  <meta content="IE-edge" http-equiv="X-UA-Compatible">
+  <link href="/main.css" rel="stylesheet" type="text/css">
+  <script src="/scripts/IncludeHTML.js"></script>
+
+</head>
+
+<body>
+<!-- menus -->
+<div w3-include-html="menu.html"></div>
+
+<div class="content">
+  <div class="in-down">
+    <div class="container">
+      <h1>Admin Screen | Users Information</h1>
+      <!--search-bar----------------------------------->
+      <div class="search-bar">
+        <div class="search-bar-active">
+          <!--search-input------->
+          <div class="search-input">
+            <input type="text" placeholder="Search For User" name="search" id="searchbar" />
+            <!--cancel-btn--->
+            <div id="search-btn">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <table id="myAdminTable">
+        <tr class="header">
+          <th style="width:20%;">Username</th>
+          <th style="width:20%;">Login Activity</th>
+          <th style="width:20%;">Logout Activity</th>
+          <th style="width:20%;">Current Cart Items</th>
+          <th style="width:20%;">Purchases</th>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+</div>
+
+<!-- for loading the menus -->
+<script>includeHTML();</script>
+<script src="/scripts/Menu.js"></script>
+</body>
+</html>
+
